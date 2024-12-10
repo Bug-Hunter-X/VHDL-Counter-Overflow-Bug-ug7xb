@@ -1,0 +1,2 @@
+# VHDL Counter with Overflow Handling
+This repository demonstrates a common error in VHDL counters and its solution. The original code lacks proper overflow handling, leading to unpredictable behavior after reaching the maximum count. The fixed version addresses this by using a modulo operator to reset the counter when it exceeds the maximum value.
